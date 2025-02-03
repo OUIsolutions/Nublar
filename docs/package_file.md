@@ -35,3 +35,22 @@ containing the followin functions
     end
 ```
 
+### Native Functions
+
+#### Https Requuest
+You can make http/https request with nublar native 
+```lua
+    local response = nublar.http_request({
+        url="https://api.github.com/repos/luizgustavoweb/nublar/releases/latest",
+        method="GET",
+        headers={
+            ["User-Agent"]="Nublar"
+        })
+    -- get the content
+    content= response.content()
+    print(response)
+
+    --if you want to drop to a file you can pass 
+    response.save_to_file("path/to/file")
+```
+

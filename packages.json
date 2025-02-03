@@ -2,10 +2,10 @@
 
     {
         "name":"vscode",
-        "script_install":"qualquer coisa"
+        "script":"url_de_instalacao_do_vscode"
     },
     {
-        "name":"serjao",
-        "script_install":"qualquer coisa"
-    },
+        "name":"node",
+        "script":"url_de_instalacao_do_node"
+    }
 ]

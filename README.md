@@ -10,3 +10,4 @@ A Decentralized Universal Package Manager for Windows/Linux
 | item          | explanation |
 |-------        |-----------|
 | [Cli Usage](/docs/cli_usage.md)| Comand line Instructions|
+| [Font Especification](/docs/font_especification.md)| Font Especification|

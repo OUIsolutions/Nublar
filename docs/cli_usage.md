@@ -1,6 +1,7 @@
 
 ### Add a Font 
 fonts are organizations that provide the packages ,to add the font just pass the url of the font to the `add` command, you need to specify the font name with the `--fontname` flags
+check [Font Especification](/docs/font_especification.md) to see how to create a font
 ```shell
 nublar add_font <url> --fontname <fontname>
 ```

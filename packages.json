@@ -3,6 +3,9 @@
     {
         "name":"vscode",
         "script_install":"qualquer coisa"
-
-}
+    },
+    {
+        "name":"serjao",
+        "script_install":"qualquer coisa"
+    },
 ]

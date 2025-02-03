@@ -42,3 +42,14 @@ To update all packages just pass the `all` to the `update` command
 ```shell
 nublar update all
 ```
+
+### Update Font
+To update a font just pass the name of the font to the `update_font` command
+```shell
+nublar update_font <fontname>
+```
+### Update All Fonts
+To update all fonts just pass the `all` to the `update_font` command
+```shell
+nublar update_font all
+```

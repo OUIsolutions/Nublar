@@ -14,4 +14,7 @@ function main()
             Main_amalgamation_build()
         end
     end
+    if darwin.argv.one_of_args_exist("build_windows_local") then
+        os.execute("i686-w64-mingw32-gcc release/nublar.c -o release/nublar.exe")
+    end
 end

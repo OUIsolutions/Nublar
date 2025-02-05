@@ -3,6 +3,8 @@
 darwintypes.lua
 # Object files
 *.o
+release
+src/imports
 dependencies
 *.ko
 *.obj

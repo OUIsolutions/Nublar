@@ -17,6 +17,7 @@ function main()
     for _, action in ipairs(REQUIRE_MAIN_AMALGAMATION) do
         if darwin.argv.one_of_args_exist(action) then
             Main_amalgamation_build()
+            break
         end
     end
     if darwin.argv.one_of_args_exist("build_windows_local") then
@@ -32,3 +33,4 @@ function main()
         os.execute("docker run  --volume $(pwd)/release:/release:z nublar_windows ")
     end
 end
+

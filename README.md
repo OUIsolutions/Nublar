@@ -1,7 +1,7 @@
 # Nublar
 A Decentralized Universal Package Manager for Windows/Linux
 
-## Releases
+## Releases (These Versions not work yet)
 | item          | plataform |
 |-------        |-----------|
 | [Amalgamation](https://github.com/OUIsolutions/Nublar/releases/download/0.001/nublar.c)| Source  |

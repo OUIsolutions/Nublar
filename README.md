@@ -18,3 +18,7 @@ A Decentralized Universal Package Manager for Windows/Linux
 | [Build Instructions](/docs/public/build.md)| Build Instructions|
 
 ### Extra
+| item          | explanation |
+|-------        |-----------|
+| [Contributors](/docs/extra/contributors.md)| Contributors list|
+| [Dependencies Licenses](/docs/extra/dependencies_licenses.md)| License Dependencies|

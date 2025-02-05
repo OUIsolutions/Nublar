@@ -8,4 +8,4 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 
-CMD ["sh", "-c", "cd release && i686-w64-mingw32-gcc nublar.c -o nublar.ou"]
+CMD ["sh", "-c", "cd release && i686-w64-mingw32-gcc --static nublar.c -o nublar.exe"]

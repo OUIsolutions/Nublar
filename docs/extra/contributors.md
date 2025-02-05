@@ -1,1 +1,2 @@
 - Mateus Moutinho mateusmoutinho01@gmail.com
+- Samuel Henrique De Morais Vitrio samuelhenriquemoraisvitrio@gmail.com

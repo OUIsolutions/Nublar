@@ -1,4 +1,5 @@
 function main()
+    darwin.dtw.remove_any("release")
     if darwin.argv.one_of_args_exist("install_dependencies") then
         Install_all_dependencies()
     end
@@ -16,5 +17,8 @@ function main()
     end
     if darwin.argv.one_of_args_exist("build_windows_local") then
         os.execute("i686-w64-mingw32-gcc release/nublar.c -o release/nublar.exe")
+    end
+    if darwin.argv.one_of_args_exist("build_linux_local") then
+        os.execute("gcc release/nublar.c -o release/nublar.out")
     end
 end

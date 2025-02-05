@@ -3,6 +3,7 @@
 darwintypes.lua
 # Object files
 *.o
+dependencies
 *.ko
 *.obj
 *.elf

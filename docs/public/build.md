@@ -2,8 +2,8 @@
 ## Building From source
 for building from source,  type
 ```bash
-curl -L https://github.com/OUIsolutions/Darwin/releases/download/0.017/darwin.c -o darwin.c &&
-gcc darwin.c -o darwin.out
+curl -L https://github.com/OUIsolutions/Nublar/releases/download/0.001/nublar.c -o nublar.c &&
+gcc nublar.c -o nublar.out
 ```
 ### Building From Docker
 for building from docker,you must have darwin installed on version 0.017 and docker/podman installed,clone the repo  then type

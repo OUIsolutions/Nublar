@@ -1,6 +1,4 @@
 function main()
-    print("chamou")
-
     if darwin.argv.one_of_args_exist("install_dependencies") then
         Install_all_dependencies()
     end
@@ -11,7 +9,9 @@ function main()
         "build_linux_from_docker",
         "build_windows_from_docker"
     }
-    if darwin.argv.one_of_args_exist(REQUIRE_MAIN_AMALGAMATION) then
-        Main_amalgamation_build()
+    for _, action in ipairs(REQUIRE_MAIN_AMALGAMATION) do
+        if darwin.argv.one_of_args_exist(action) then
+            Main_amalgamation_build()
+        end
     end
 end
